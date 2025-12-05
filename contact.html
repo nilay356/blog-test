@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Schools Blog</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand"><span>Schools</span> Blog</div>
+      <button id="mobileToggle6" class="mobile-toggle">☰</button>
+
+      <nav id="mainNav6" class="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="whats-new.html" class="nav-link">What's New</a>
+        <a href="events.html" class="nav-link">Events</a>
+        <a href="gallery.html" class="nav-link">Gallery</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="container contact-page">
+
+    <h1 class="page-title">Contact Us</h1>
+    <p class="contact-intro">
+      Want to share photos, event details, or updates?  
+      Fill out the form below or email us at  
+      <strong>admin@choolsblog.example</strong>.
+    </p>
+
+    <form id="contactForm" class="contact-form">
+      <div id="successPopup" class="success-popup">
+  ✔ Message sent successfully!
+</div>
+
+  <label>Name</label>
+  <input name="name" required>
+
+  <label>Email</label>
+  <input name="email" type="email" required>
+
+  <label>School / Class (optional)</label>
+  <input name="school">
+
+  <label>Message</label>
+  <textarea name="message" rows="6" required></textarea>
+
+  <button class="btn btn-primary" type="submit">Send Message</button>
+</form>
+
+
+
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">© Schools Blog</div>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
