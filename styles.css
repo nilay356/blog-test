@@ -541,3 +541,99 @@ h2 {
 .event-card.upcoming {
     border: 1px solid rgba(255, 230, 120, 0.25);
 }
+
+/* ===============================
+   BLOG POST PAGE STYLING
+   =============================== */
+
+.post-page {
+  max-width: 850px;
+  margin: auto;
+  padding-bottom: 80px;
+}
+
+/* Title */
+.post-title {
+  font-size: clamp(32px, 6vw, 52px);
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+/* Meta */
+.post-meta {
+  color: var(--muted);
+  font-size: 14px;
+  margin-bottom: 22px;
+}
+
+/* Cover Image */
+.post-cover img {
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+  margin-bottom: 30px;
+  object-fit: cover;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.35);
+}
+
+/* Content formatting */
+.post-content {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #e5e9f0;
+}
+
+/* Paragraphs */
+.post-content p {
+  margin-bottom: 22px;
+}
+
+/* Headings */
+.post-content h2 {
+  margin-top: 32px;
+  margin-bottom: 14px;
+  font-size: 28px;
+  color: var(--accent-2);
+}
+.post-content h3 {
+  margin-top: 25px;
+  margin-bottom: 12px;
+  color: var(--accent);
+}
+
+/* Lists */
+.post-content ul {
+  margin: 18px 0 22px 20px;
+  padding: 0;
+}
+.post-content li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+/* Blockquote */
+.post-content blockquote {
+  padding: 16px 22px;
+  border-left: 4px solid var(--accent);
+  background: rgba(255,255,255,0.05);
+  border-radius: 8px;
+  margin: 25px 0;
+  font-style: italic;
+}
+
+/* Article footer (tags, etc.) */
+.post-footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  color: var(--muted);
+  font-size: 14px;
+}
+.post-footer a {
+  color: var(--accent-2);
+  text-decoration: none;
+}
+.post-footer a:hover {
+  text-decoration: underline;
+}
